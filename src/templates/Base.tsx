@@ -34,10 +34,10 @@ const Base = () => (
     <Meta title={AppConfig.title} description={AppConfig.description} />
 
     {/* Navigation */}
-    <div className="fixed inset-x-0 top-0 z-50 bg-white/95 shadow-sm backdrop-blur-sm">
-      <Section yPadding="py-2">
+    <div className="fixed inset-x-0 top-0 z-50 border-b border-gray-200 bg-white/95 shadow-sm backdrop-blur-sm">
+      <div className="mx-auto max-w-screen-xl px-4 py-3 lg:px-6">
         <HeaderNav />
-      </Section>
+      </div>
     </div>
 
     {/* Hero Section - Full Screen */}

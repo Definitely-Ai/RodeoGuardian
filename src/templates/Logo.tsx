@@ -5,13 +5,14 @@ type ILogoProps = {
 };
 
 const Logo = (props: ILogoProps) => {
-  const size = props.xl ? 32 : 24;
+  const size = props.xl ? 32 : 20;
+  const width = props.xl ? 144 : 90;
   return (
-    <span className="inline-flex items-center gap-3">
+    <span className="inline-flex items-center">
       <Image
         src="/logo.png"
         alt="RodeoGuardian"
-        width={size * 4.5}
+        width={width}
         height={size}
         className="h-auto object-contain"
         style={{ imageRendering: 'crisp-edges' }}
