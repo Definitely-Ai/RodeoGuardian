@@ -118,6 +118,119 @@ export const siteContent = {
     placeholderEndpoint: 'https://formplaceholder.example.com/submit',
     mailto: 'mailto:hello@livestock.tech',
   },
+  insurancePartnerships: {
+    title: 'Built for Insurance Partners',
+    description:
+      'RodeoGuardian delivers the structured, timestamped evidence insurers need to accelerate claims and reward best-practice care.',
+    features: [
+      {
+        title: '40% Faster Claims',
+        description:
+          'Automated proof-of-care documentation eliminates manual logs and guesswork.',
+        stat: 40,
+      },
+      {
+        title: '24/7 Evidence Locker',
+        description:
+          'Continuous monitoring creates an unbroken chain of custody for every animal.',
+        stat: 24,
+      },
+      {
+        title: 'Risk Reduction',
+        description: 'Early health alerts prevent claims before they happen.',
+        stat: 60,
+      },
+    ],
+  },
+  evidenceLocker: {
+    title: '24/7 Evidence Locker',
+    subtitle: 'Always-On Monitoring, Always-Ready Documentation',
+    description:
+      'Every moment is recorded, timestamped, and instantly retrievable. Show exactly what happened, when, and how you responded.',
+    features: [
+      'Continuous video recording with thermal + optical coverage',
+      'Timestamped health alerts and response logs',
+      'One-click export for veterinarians and insurers',
+      'Secure cloud archive with role-based access',
+      'Chain-of-custody documentation for legal protection',
+    ],
+  },
+  security: {
+    title: 'Security & Compliance',
+    description:
+      'Enterprise-grade security built for sensitive livestock data.',
+    features: [
+      {
+        icon: 'shield',
+        title: 'Data Encryption',
+        description: 'End-to-end encryption for all video and health data.',
+      },
+      {
+        icon: 'lock',
+        title: 'Role-Based Access',
+        description: 'Granular permissions for staff, vets, and partners.',
+      },
+      {
+        icon: 'server',
+        title: 'SOC 2 Compliant',
+        description: 'Industry-standard security and privacy controls.',
+      },
+      {
+        icon: 'clock',
+        title: 'Audit Trails',
+        description: 'Complete logs of who accessed what and when.',
+      },
+    ],
+  },
+  testimonials: [
+    {
+      quote:
+        "RodeoGuardian caught a bull going off-feed 18 hours before we would've noticed. That early alert saved us a major loss.",
+      author: 'Jake Morrison',
+      role: 'Stock Contractor',
+      company: 'Morrison Rodeo Company',
+    },
+    {
+      quote:
+        "The AR view is a game-changer. I can check every animal's status in seconds without pulling paper logs.",
+      author: 'Dr. Sarah Chen',
+      role: 'Rodeo Veterinarian',
+      company: 'PRCA Circuit',
+    },
+    {
+      quote:
+        'Claims that used to take 3 weeks now close in 4 days. The timestamped proof-of-care is exactly what we need.',
+      author: 'Michael Torres',
+      role: 'Senior Claims Adjuster',
+      company: 'Western Livestock Insurance',
+    },
+  ],
+  partners: {
+    title: 'Trusted by Industry Leaders',
+    logos: [
+      { name: 'PRCA', alt: 'Professional Rodeo Cowboys Association' },
+      { name: 'PBR', alt: 'Professional Bull Riders' },
+      { name: 'WPRA', alt: "Women's Professional Rodeo Association" },
+      {
+        name: 'Western Livestock Insurance',
+        alt: 'Western Livestock Insurance',
+      },
+    ],
+  },
+  stats: {
+    title: 'Proven Impact',
+    items: [
+      { value: 40, prefix: '', suffix: '%', label: 'Faster Claims Processing' },
+      { value: 10, prefix: '>', suffix: '', label: 'Years Hardware Lifespan' },
+      { value: 24, prefix: '', suffix: '/7', label: 'Continuous Monitoring' },
+      {
+        value: 60,
+        prefix: '',
+        suffix: '%',
+        label: 'Reduction in Health Issues',
+      },
+    ],
+  },
   footer: {
     links: [
       { label: 'livestock.tech', href: 'https://livestock.tech' },
