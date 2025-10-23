@@ -5,7 +5,7 @@ type ILogoProps = {
 };
 
 const Logo = (props: ILogoProps) => {
-  const size = props.xl ? 40 : 28;
+  const size = props.xl ? 32 : 24;
   return (
     <span className="inline-flex items-center gap-3">
       <Image
@@ -13,8 +13,10 @@ const Logo = (props: ILogoProps) => {
         alt="RodeoGuardian"
         width={size * 4.5}
         height={size}
-        className="h-auto"
+        className="h-auto object-contain"
+        style={{ imageRendering: 'crisp-edges' }}
         priority
+        quality={100}
       />
     </span>
   );

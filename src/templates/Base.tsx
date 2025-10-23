@@ -8,7 +8,6 @@ import {
   PartnersSection,
   SecuritySection,
   StatsSection,
-  TestimonialsSection,
 } from '../components/sections';
 import { InteractiveButton } from '../components/ui/InteractiveButton';
 import { InteractiveCard } from '../components/ui/InteractiveCard';
@@ -36,7 +35,7 @@ const Base = () => (
 
     {/* Navigation */}
     <div className="fixed inset-x-0 top-0 z-50 bg-white/95 shadow-sm backdrop-blur-sm">
-      <Section yPadding="py-3">
+      <Section yPadding="py-2">
         <HeaderNav />
       </Section>
     </div>
@@ -129,9 +128,6 @@ const Base = () => (
         </div>
       </Section>
     </div>
-
-    {/* Testimonials Section - Light Background */}
-    <TestimonialsSection />
 
     {/* ROI Section - White Background */}
     <div className="bg-white">

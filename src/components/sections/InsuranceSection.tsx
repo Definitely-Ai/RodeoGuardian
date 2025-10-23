@@ -28,8 +28,8 @@ const InsuranceSection = () => {
             <FadeIn key={feature.title} delay={index * 0.15} direction="up">
               <div className="group relative">
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary-500/20 to-accent-500/20 opacity-0 blur-xl transition-opacity duration-500 group-hover:opacity-100" />
-                <InteractiveCard className="relative border border-accent-700 bg-accent-800/80 backdrop-blur-sm">
-                  <div className="mb-4 text-5xl font-bold text-primary-400">
+                <InteractiveCard className="relative border border-accent-700 bg-accent-800/90 backdrop-blur-sm">
+                  <div className="mb-4 text-5xl font-bold text-white">
                     <AnimatedCounter
                       end={feature.stat}
                       suffix={feature.title.includes('24/7') ? '/7' : '%'}
@@ -39,7 +39,7 @@ const InsuranceSection = () => {
                   <h3 className="mb-3 text-2xl font-semibold text-white">
                     {feature.title}
                   </h3>
-                  <p className="text-lg leading-relaxed text-gray-200">
+                  <p className="text-lg leading-relaxed text-white">
                     {feature.description}
                   </p>
                 </InteractiveCard>
