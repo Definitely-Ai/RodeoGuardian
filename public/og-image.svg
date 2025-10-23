@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">RodeoGuardian Open Graph Card</title>
+  <desc id="desc">Brand card for RodeoGuardian highlighting real-time livestock welfare and proof-of-care messaging.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6D1B1E" />
+      <stop offset="100%" stop-color="#451113" />
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C63B3F" />
+      <stop offset="100%" stop-color="#8E2528" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)" />
+  <g transform="translate(120 115)">
+    <rect x="0" y="0" width="960" height="400" rx="32" fill="rgba(255,255,255,0.08)" stroke="rgba(248,214,166,0.35)" />
+    <g transform="translate(72 96)">
+      <path d="M88 0c-2.9 0-5.8.73-8.4 2.06L8 41v55.8c0 43 31.2 81.6 68.8 94.2C114.4 178.4 146 140 146 96.8V41L96.4 2.06C93.8.73 90.9 0 88 0z" fill="url(#shield)" />
+      <path d="M108 40H88V20H72v20H52v16h20v20h16V56h20z" fill="#F8D6A6" />
+      <path d="M55 110c-8.8 0-16 7.5-16 17.3v23.4c0 6.2 4.8 11.3 11 11.3h14.9l6.8 24.8h17.4l5.3-21.1h36.8l5.3 21.1h17.4l6.8-24.8H199c6.1 0 11-5 11-11.3v-19.7c0-19.5-15.5-35.3-35-35.3h-3.4l-22-18.1h-30.6l-14.1 21.2c-9.2 1.3-16.5 9.4-16.5 19.6z" fill="#F5F2EE" />
+    </g>
+    <g transform="translate(260 100)">
+      <text x="0" y="0" fill="#F5F2EE" font-family="'Inter', 'Segoe UI', sans-serif" font-size="72" font-weight="600">
+        Protect Every Champion.
+      </text>
+      <text x="0" y="86" fill="#F5F2EE" font-family="'Inter', 'Segoe UI', sans-serif" font-size="72" font-weight="600">
+        Prove Every Care.
+      </text>
+      <text x="0" y="164" fill="#F8D6A6" font-family="'Inter', 'Segoe UI', sans-serif" font-size="28" font-weight="400">
+        Real-time livestock welfare, early health alerts, and insurer-ready proof-of-care.
+      </text>
+    </g>
+    <text x="260" y="360" fill="#F8D6A6" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">
+      RodeoGuardian — Real-Time Livestock Welfare &amp; Proof-of-Care for Rodeos
+    </text>
+  </g>
+</svg>
