@@ -7,7 +7,7 @@ import { InteractiveButton } from '../ui/InteractiveButton';
 
 const HeroSection = () => {
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-accent-900 via-accent-800 to-primary-700">
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 bg-circuit-pattern opacity-10" />
 
@@ -62,7 +62,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, ease: [0.4, 0, 0.2, 1] as const }}
         >
           <motion.p
-            className="mb-6 text-sm font-semibold uppercase tracking-widest text-primary-100"
+            className="mb-6 text-sm font-semibold uppercase tracking-widest text-gray-300"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.6 }}
@@ -108,7 +108,7 @@ const HeroSection = () => {
           >
             <InteractiveButton
               href={siteContent.hero.primaryCta.href}
-              variant="accent"
+              variant="primary"
               size="xl"
             >
               {siteContent.hero.primaryCta.label}
@@ -116,7 +116,7 @@ const HeroSection = () => {
 
             <Link
               href={siteContent.hero.secondaryCta.href}
-              className="group inline-flex items-center gap-2 text-lg font-semibold text-white transition-all hover:text-primary-100"
+              className="group inline-flex items-center gap-2 text-lg font-semibold text-white transition-all hover:text-gray-200"
             >
               {siteContent.hero.secondaryCta.label}
               <motion.svg
@@ -148,7 +148,7 @@ const HeroSection = () => {
           <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-            className="flex flex-col items-center gap-2 text-primary-100"
+            className="flex flex-col items-center gap-2 text-gray-300"
           >
             <span className="text-sm font-medium">Scroll to explore</span>
             <svg

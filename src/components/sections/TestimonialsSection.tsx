@@ -49,7 +49,7 @@ const TestimonialsSection = () => {
                 </div>
 
                 {/* Quote */}
-                <p className="italic text-lg leading-relaxed text-gray-700 mb-6">
+                <p className="mb-6 text-lg italic leading-relaxed text-gray-700">
                   &ldquo;{testimonial.quote}&rdquo;
                 </p>
 

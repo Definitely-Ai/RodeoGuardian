@@ -37,7 +37,7 @@ const InteractiveButton = ({
     secondary:
       'border-2 border-primary-700 text-primary-700 hover:bg-primary-50 focus-visible:outline-primary-500',
     accent:
-      'bg-accent-600 text-white hover:bg-accent-500 hover:shadow-accent-glow focus-visible:outline-accent-500',
+      'bg-accent-700 text-white hover:bg-accent-600 hover:shadow-accent-glow focus-visible:outline-accent-500',
     outline:
       'border-2 border-white text-white hover:bg-white/10 focus-visible:outline-white',
   };

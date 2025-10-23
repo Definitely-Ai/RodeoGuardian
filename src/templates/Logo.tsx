@@ -1,18 +1,21 @@
-import { AppConfig } from '../utils/AppConfig';
+import Image from 'next/image';
 
 type ILogoProps = {
   xl?: boolean;
 };
 
 const Logo = (props: ILogoProps) => {
-  const fontStyle = props.xl
-    ? 'font-semibold text-3xl'
-    : 'font-semibold text-xl';
+  const size = props.xl ? 48 : 36;
   return (
-    <span
-      className={`inline-flex items-center gap-2 text-current ${fontStyle}`}
-    >
-      <span className="tracking-tight text-current">{AppConfig.site_name}</span>
+    <span className="inline-flex items-center gap-3">
+      <Image
+        src="/logo.png"
+        alt="RodeoGuardian"
+        width={size * 5}
+        height={size}
+        className="h-auto"
+        priority
+      />
     </span>
   );
 };

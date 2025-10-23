@@ -53,8 +53,8 @@ const EvidenceLockerSection = () => {
           {/* Left: Content */}
           <FadeIn direction="left">
             <div className="space-y-6">
-              <div className="inline-block rounded-full border border-accent-500 bg-accent-600/20 px-4 py-2">
-                <span className="text-sm font-semibold uppercase tracking-wider text-accent-400">
+              <div className="inline-block rounded-full border border-primary-500 bg-primary-600/20 px-4 py-2">
+                <span className="text-sm font-semibold uppercase tracking-wider text-primary-400">
                   Always On
                 </span>
               </div>
@@ -95,14 +95,14 @@ const EvidenceLockerSection = () => {
           <FadeIn direction="right" delay={0.2}>
             <div className="relative">
               {/* Glow Effect */}
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary-500/30 to-accent-500/30 blur-2xl" />
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary-500/30 to-primary-700/30 blur-2xl" />
 
               {/* Dashboard Frame */}
               <div className="relative rounded-2xl border border-gray-700 bg-gray-800 p-6 shadow-2xl">
                 {/* Header */}
                 <div className="mb-4 flex items-center justify-between border-b border-gray-700 pb-4">
                   <div className="flex items-center gap-3">
-                    <div className="size-3 animate-glow-pulse rounded-full bg-accent-500" />
+                    <div className="size-2 animate-glow-pulse rounded-full bg-primary-500" />
                     <span className="text-sm font-semibold text-gray-300">
                       LIVE RECORDING
                     </span>
@@ -148,7 +148,7 @@ const EvidenceLockerSection = () => {
                   </div>
                   <div className="h-2 overflow-hidden rounded-full bg-gray-800">
                     <motion.div
-                      className="h-full bg-gradient-to-r from-primary-600 to-accent-600"
+                      className="h-full bg-gradient-to-r from-primary-600 to-primary-400"
                       initial={{ width: '0%' }}
                       whileInView={{ width: '100%' }}
                       viewport={{ once: true }}

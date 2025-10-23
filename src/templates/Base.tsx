@@ -194,16 +194,16 @@ const Base = () => (
     </div>
 
     {/* Final CTA Section - Dark Gradient with Glow */}
-    <div className="relative overflow-hidden bg-gradient-to-br from-primary-900 via-primary-800 to-accent-900">
+    <div className="relative overflow-hidden bg-gradient-to-br from-accent-900 via-accent-800 to-primary-800">
       <div className="absolute inset-0 bg-circuit-pattern opacity-10" />
-      <div className="absolute right-1/4 top-0 size-96 rounded-full bg-accent-500/20 blur-3xl" />
+      <div className="absolute right-1/4 top-0 size-96 rounded-full bg-primary-500/20 blur-3xl" />
 
       <Section id="contact" yPadding="py-24">
         <FadeIn className="text-center text-white">
           <h2 className="mb-6 text-4xl font-bold md:text-5xl">
             {siteContent.finalCta.title}
           </h2>
-          <p className="mx-auto mb-10 max-w-2xl text-xl text-primary-100">
+          <p className="mx-auto mb-10 max-w-2xl text-xl leading-relaxed text-gray-100">
             Transform your rodeo operations with AI-powered livestock monitoring
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -217,7 +217,7 @@ const Base = () => (
               >
                 <InteractiveButton
                   href={button.href}
-                  variant={button.style === 'primary' ? 'accent' : 'outline'}
+                  variant={button.style === 'primary' ? 'primary' : 'outline'}
                   size="xl"
                 >
                   {button.label}

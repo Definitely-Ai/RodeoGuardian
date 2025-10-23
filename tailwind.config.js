@@ -16,31 +16,31 @@ module.exports = {
     },
     extend: {
       colors: {
-        // Tech Trust Blue - Primary palette
+        // RodeoGuardian Burgundy - Primary palette (from logo)
         primary: {
-          50: '#EBF3FA',
-          100: '#D6E7F5',
-          200: '#ADCFEB',
-          300: '#84B7E1',
-          400: '#5B9FD7',
-          500: '#3287CD',
-          600: '#276DAD',
-          700: '#1F4E8C', // Deep tech blue
-          800: '#163661',
-          900: '#0E1F36',
+          50: '#FDF4F3',
+          100: '#FCE8E6',
+          200: '#F9D5D1',
+          300: '#F4B3AC',
+          400: '#EC8179',
+          500: '#E05548',
+          600: '#C83A2D',
+          700: '#A73028', // Logo burgundy red
+          800: '#8B2822',
+          900: '#742523',
         },
-        // Rodeo Bronze/Red - Accent palette
+        // Complementary Dark Blue - Accent palette
         accent: {
-          50: '#FAE9E7',
-          100: '#F5D3CF',
-          200: '#EBA79F',
-          300: '#E17B6F',
-          400: '#D74F3F',
-          500: '#CD230F',
-          600: '#A6381B', // Dark red
-          700: '#7D2A14',
-          800: '#541C0D',
-          900: '#2B0E07',
+          50: '#F0F4F8',
+          100: '#D9E2EC',
+          200: '#BCCCDC',
+          300: '#9FB3C8',
+          400: '#829AB1',
+          500: '#627D98',
+          600: '#486581',
+          700: '#334E68', // Deep navy
+          800: '#243B53',
+          900: '#102A43',
         },
         // Neutral grays for clean premium feel
         gray: {
@@ -111,16 +111,16 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-tech':
-          'linear-gradient(135deg, #1F4E8C 0%, #276DAD 50%, #3287CD 100%)',
-        'gradient-accent': 'linear-gradient(135deg, #A6381B 0%, #CD230F 100%)',
+          'linear-gradient(135deg, #A73028 0%, #C83A2D 50%, #E05548 100%)',
+        'gradient-accent': 'linear-gradient(135deg, #334E68 0%, #486581 100%)',
         'circuit-pattern':
-          "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231F4E8C' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+          "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23A73028' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
       },
       boxShadow: {
-        'glow-sm': '0 0 10px rgba(31, 78, 140, 0.3)',
-        glow: '0 0 20px rgba(31, 78, 140, 0.4)',
-        'glow-lg': '0 0 30px rgba(31, 78, 140, 0.5)',
-        'accent-glow': '0 0 20px rgba(166, 56, 27, 0.4)',
+        'glow-sm': '0 0 10px rgba(167, 48, 40, 0.3)',
+        glow: '0 0 20px rgba(167, 48, 40, 0.4)',
+        'glow-lg': '0 0 30px rgba(167, 48, 40, 0.5)',
+        'accent-glow': '0 0 20px rgba(51, 78, 104, 0.4)',
       },
       transitionTimingFunction: {
         'bounce-smooth': 'cubic-bezier(0.34, 1.56, 0.64, 1)',
