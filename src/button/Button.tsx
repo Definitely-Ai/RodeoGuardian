@@ -32,11 +32,15 @@ const Button = (props: IButtonProps) => {
           }
 
           .btn-primary {
-            @apply text-white bg-primary-500;
+            @apply text-white bg-primary-600 shadow-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-300;
           }
 
           .btn-primary:hover {
-            @apply bg-primary-600;
+            @apply bg-primary-700;
+          }
+
+          .btn-primary:active {
+            @apply bg-primary-800;
           }
         `}
       </style>
