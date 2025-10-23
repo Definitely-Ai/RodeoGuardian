@@ -36,7 +36,7 @@ const Base = () => (
 
     {/* Navigation */}
     <div className="fixed inset-x-0 top-0 z-50 bg-white/95 shadow-sm backdrop-blur-sm">
-      <Section yPadding="py-4">
+      <Section yPadding="py-3">
         <HeaderNav />
       </Section>
     </div>
